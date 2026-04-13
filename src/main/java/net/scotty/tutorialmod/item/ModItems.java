@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
-            public static final RegistryObject<Item> weaperhead = ITEMS.register("Weaper Moth Head",
+            public static final RegistryObject<Item> weaperhead = ITEMS.register("Weaper_Moth_Head",
                     () -> new Item(new Item.Properties()));
 
 public static void register(IEventBus eventbus) {
